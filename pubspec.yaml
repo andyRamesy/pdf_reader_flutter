@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  syncfusion_flutter_pdfviewer: ^26.2.9
 
 dev_dependencies:
   flutter_test:

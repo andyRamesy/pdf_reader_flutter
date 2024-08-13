@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class ReadingScreen extends StatelessWidget {
   const ReadingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('data'),);
+    return Scaffold(
+        body: SfPdfViewer.network(
+            'https://cdn.syncfusion.com/content/PDFViewer/flutter-succinctly.pdf'));
   }
 }
