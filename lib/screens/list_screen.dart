@@ -18,7 +18,7 @@ class ListScreen extends StatelessWidget {
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
           ),
-          children: pdfList.map((value) => BookItem(title: value['title'],)).toList(),
+          children: pdfList.map((value) => BookItem(title: value.title,)).toList(),
         ),
       ),
     );
