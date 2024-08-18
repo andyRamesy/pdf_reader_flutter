@@ -6,9 +6,7 @@ class BookItem extends StatelessWidget {
   const BookItem({super.key, required this.title});
 
   void gotoReading(BuildContext context) {
-    Navigator.of(context).push(MaterialPageRoute(builder: (_) {
-      return ReadingScreen();
-    }));
+    
   }
 
   @override
